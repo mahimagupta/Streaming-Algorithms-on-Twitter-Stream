@@ -18,10 +18,10 @@ object TwitterStreaming {
   var hashtagsDict = Map[String, Int]()
 
 
-  val consumerkey = "FXkj0Cw2sy932x5DrxWPczFQh"
-  val consumer_secret = "AOTwVZsmSnLm5t0Ysw0Jr76B1T0pMnTD7jNWjCKwB6OlAWJgW8"
-  val accesstoken = "4815914128-LHC18m7QJC8TR7jr7n8PoCMBpahS05MKCRTLeJq"
-  val accesstoken_secret = "eEtuaXQK72FQIelYNg7LYzpNgsQHs4x8nJUHDh8EpWO7G"
+  val consumerkey = "YOUR_KEY"
+  val consumer_secret = "YOUR_KEY"
+  val accesstoken = "YOUR_KEY"
+  val accesstoken_secret = "YOUR_KEY"
 
   def ProcessingTweets(tweetBatches : RDD[Status]) : Unit =
   {
